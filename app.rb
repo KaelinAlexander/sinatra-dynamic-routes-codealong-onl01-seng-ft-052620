@@ -23,5 +23,5 @@ class App < Sinatra::Base
   get "/multiple/:num1/:num2" do
     @num_1 = params[:num1].to_i
     @num_2 = params[:num2].to_i
-    
+
 end
