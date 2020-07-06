@@ -26,5 +26,5 @@ class App < Sinatra::Base
     @total = @num_1 * @num_2
     "#{@total}"
   end
-  
+
 end
